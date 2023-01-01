@@ -1,0 +1,88 @@
+/* General Layout */
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    border: 1px rgb(173, 166, 166) solid;
+    border-radius: 30px;
+    background-color: black;
+    /* Text */
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* General Styling */
+h1{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.navList{
+    padding: 10px;
+}
+
+/* Image Styling */
+.hero{
+    max-width: 1200px;
+}
+.logo{
+    max-width: 32px;
+}
+
+/* Media Queries */
+@media screen and (prefers-reduced-motion: reduce) {  
+    * {
+      /* Very short durations means JavaScript that relies on events still works */
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+@-ms-viewport{
+    width: device-width;
+  }
+  /* Viewports between 270px and 340px wide */
+@media only screen and (min-device-width: 270px) and (max-device-width: 340px) {
+    *{
+        max-width: 260px;
+    }
+    .hero {
+        max-width: 260px;
+        
+    }
+    .nav{
+        font-size: small;
+    }
+  }
+  /* Viewports between 341px and 480px wide */
+  @media only screen and (min-device-width: 341px) and (max-device-width: 480px) {
+    .hero {
+        max-width: 340px;
+        
+    }
+  }
+/* Viewports between 481px and 600px wide */
+@media only screen and (min-device-width: 481px) and (max-device-width: 600px) {
+    .hero {
+        max-width: 480px;
+        
+    }
+  }
+  /* Viewports between 601px and 860px wide */
+@media only screen and (min-device-width: 601px) and (max-device-width: 860px) {
+    .hero {
+        max-width: 600px;
+        
+    }
+  }
