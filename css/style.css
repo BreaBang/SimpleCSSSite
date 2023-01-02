@@ -1,8 +1,11 @@
-div{
-    border: 2px solid black;
-}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
 /* General Layout */
 .nav{
+    background-color: #EBEBE8;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -10,14 +13,9 @@ div{
     width: auto;
     text-decoration: none;
     list-style: none;
-    border-bottom: solid black 2px;
-    /* Text */
-    color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: large;
 }
 main{
-    background-color: white;
+    background-color: #EBEBE8;
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -29,13 +27,16 @@ main{
     max-width: 1200px;
     padding: 0px 10px; 
 }
+.servicesHomePage{
+    background-color: #778A35;
+}
 .serviceOverview{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 .serviceIcon{
-    color: black;
+    color: #EBEBE8;
     
 }
 .serviceDiv{
@@ -47,27 +48,84 @@ main{
 }
 
 /* General Styling */
+body{
+    background-color: #EBEBE8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 h1{
+    color: #778A35;
+    font-size: 3rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+}
+h2, h3, h4, h5, h6 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #778A35;
 }
 a{
     text-decoration: none;
     color: inherit;
 }
+li{
+    list-style: none;
+}
+/* Navigation Bar */
+.nav{
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
 .navList{
     padding: 10px;
 }
+/* Footer */
+.footer{
+    background:#31352E;
+    padding:30px 0px;
+    text-align:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    }
+    
+    .footer .row{
+    width: 100%;
+    margin: 0px 5px;
+    padding: 5px 5px;
+    color: #EBEBE8;
+    font-size: 0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration: none;
+    color: #EBEBE8;
+    }
+    
+    .footer .row ul{
+    width: 100%;
+    }
+    .footer .row ul li{
+    display: inline-block;
+    margin: 0px 10px;
+    }
+    .footer .row a i{
+    font-size: 2em;
+    margin: 0px 5px;
+    }
+    .faIcon{
+       padding-right: 5px;
+       
+    }
 /* Image Styling */
 .hero-img{
     max-width: 1200px;
+    height: auto;
 }
 .logo{
     max-width: 50px;
 }
 /* Buttons */
 .btn{
-    border: 2px solid #bbcf6e;
-    background-color: #98AD43;
+    border: 2px solid #183a1d;
+    background-color: #183a1d;
     border-radius: 30px;
     color: white;
     padding: 10px 20px;
@@ -105,6 +163,18 @@ a{
         justify-content: center;
         align-items: center;
     }
+    .footer{
+        text-align:left;
+        padding:5%;
+        }
+    .footer .row ul li{
+        display:block;
+        margin:10px 0px;
+        text-align:left;
+        }
+    .footer .row a i{
+        margin:0% 3%;
+        }
   }
   /* Viewports between 341px and 480px wide */
   @media only screen and (min-device-width: 341px) and (max-device-width: 480px) {
@@ -124,6 +194,18 @@ a{
         justify-content: center;
         align-items: center;
     }
+    .footer{
+        text-align:left;
+        padding:5%;
+        }
+    .footer .row ul li{
+        display:block;
+        margin:10px 0px;
+        text-align:left;
+        }
+    .footer .row a i{
+        margin:0% 3%;
+        }
   }
 /* Viewports between 481px and 600px wide */
 @media only screen and (min-device-width: 481px) and (max-device-width: 600px) {
@@ -143,6 +225,18 @@ a{
         justify-content: center;
         align-items: center;
     }
+    .footer{
+        text-align:left;
+        padding:5%;
+        }
+    .footer .row ul li{
+        display:block;
+        margin:10px 0px;
+        text-align:left;
+        }
+    .footer .row a i{
+        margin:0% 3%;
+        }
   }
   /* Viewports between 601px and 860px wide */
 @media only screen and (min-device-width: 601px) and (max-device-width: 860px) {
@@ -162,4 +256,16 @@ a{
         justify-content: center;
         align-items: center;
     }
+    .footer{
+        text-align:left;
+        padding:5%;
+        }
+    .footer .row ul li{
+        display:block;
+        margin:10px 0px;
+        text-align:left;
+        }
+    .footer .row a i{
+        margin:0% 3%;
+        }
   }
