@@ -1,3 +1,8 @@
+  <br>
+        <a target="_blank" href="https://github.com/BreaBang/StoryApp">
+            <img src="https://github.com/SimpleCSSSite/raw/main/TailorFam.gif">
+        </a>
+
 # SimpleCSSSite
 
 This is a simple HTML and CSS website for a fictional dry cleaning business located in Metropolis. 
