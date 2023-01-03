@@ -1,5 +1,5 @@
 
-            <img src="https://github.com/BreaBang/SimpleCSSSite/blob/main/TailorFam.gif?raw=true">
+ <img src="https://github.com/BreaBang/SimpleCSSSite/blob/main/TailorFam.gif?raw=true" />
     
 
 # SimpleCSSSite
