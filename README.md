@@ -1,7 +1,6 @@
-  <br>
-        <a target="_blank" href="https://github.com/BreaBang/StoryApp">
-            <img src="https://github.com/SimpleCSSSite/raw/main/TailorFam.gif">
-        </a>
+
+            <img src="https://github.com/BreaBang/SimpleCSSSite/blob/main/TailorFam.gif?raw=true">
+    
 
 # SimpleCSSSite
 
