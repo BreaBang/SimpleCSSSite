@@ -1,3 +1,7 @@
+
+ <img src="https://github.com/BreaBang/SimpleCSSSite/blob/main/TailorFam.gif?raw=true" />
+    
+
 # SimpleCSSSite
 
 This is a simple HTML and CSS website for a fictional dry cleaning business located in Metropolis. 
