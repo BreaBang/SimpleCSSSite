@@ -48,7 +48,6 @@ main{
     padding: 10px 50px 10px 50px;
     width: 300px;
 }
-
 /* General Styling */
 body{
     background-color: #EBEBE8;
@@ -142,6 +141,53 @@ nav{
     width: fit-content;
     text-align: center;
 }
+/* Services Page Layout */
+.servicesWrapper{
+    height: vh100;
+}
+.servicesRow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+.servicesColumn{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+}
+/* Services Page Styling*/
+.price{
+    text-align: right;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.product{
+    text-align: left;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.price, .product{
+    padding-top: 10px;
+}
+.disclaimerWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.disclaimer{
+    display: flex;
+    align-items: center;
+    border: dotted 2px #D1E2C4;
+    background-color: #778A35;
+    min-height: 100px;
+    max-width: 1200px;
+    margin: 20px 0px;
+    padding: 0px 20px;
+}
+#disclaimer{
+    color: #D1E2C4;
+}
 /* Media Queries */
 @media screen and (prefers-reduced-motion: reduce) {  
     * {
@@ -216,6 +262,12 @@ nav{
     .copy{
         text-align: center;
     }
+/* Service Page*/
+.servicesColumn{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 5px;
+}
   }
 /* Viewports between 481px and 600px wide */
 @media only screen and (min-device-width: 481px) and (max-device-width: 600px) {
