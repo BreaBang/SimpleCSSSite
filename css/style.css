@@ -298,10 +298,14 @@ input[type=text], input[type=email], select, textarea {
         text-align: center;
     }
 /* Service Page*/
+.servicesWrapper{
+    width: 100vw;
+}
 .servicesColumn{
     display: flex;
     flex-direction: column;
-    margin: 20px 5px;
+    margin: 20px 3px;
+    font-size:smaller;
 }
    /* Contact Page */
    input[type=text], input[type=email], select, textarea {
