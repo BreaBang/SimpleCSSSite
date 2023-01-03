@@ -6,18 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailor Family Dry Cleaners</title>
     <link rel="stylesheet" href="css/style.css">
-    <!-- Served to all users -->
-    <link rel="stylesheet" href="all.css" media="all" />
-    <!-- Served to screens that are at least 20em wide -->
-    <link rel="stylesheet" href="small.css" media="(min-width: 20em)" />
-    <!-- Served to screens that are at least 64em wide -->
-    <link rel="stylesheet" href="medium.css" media="(min-width: 64em)" />
-    <!-- Served to screens that are at least 90em wide -->
-    <link rel="stylesheet" href="large.css" media="(min-width: 90em)" />
-    <!-- Served to screens that are at least 120em wide -->
-    <link rel="stylesheet" href="extra-large.css" media="(min-width: 120em)" />
-    <!-- Served to print media, like printers -->
-    <link rel="stylesheet" href="print.css" media="print" />
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/55b9378ca5.js" crossorigin="anonymous"></script>
 </head>
@@ -31,8 +19,26 @@
             <li class="navList"><a href="/contact.html">Contact</a></li>
         </ul>
     </nav>
-    <!-- Contact Form -->
-    
+     <!-- Contact Form -->  
+    <main>
+        <div id="form">
+            <div class="formWrapper">
+            <div class="formRow">
+                <h2>Contact Us</h2>
+            </div>  
+            <form name="TFDC" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                <div class="formRow">
+                    <div class="formRow"><input type="text" name="name" id="name" placeholder="Name" /></div>
+                    <div class="formRow"><input type="email" name="email" id="email" placeholder="Email" /></div>
+                    <div class="formRow"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+                    <div class="formRow hidden"><input type="text" name="bot-field" id="bot-field" placeholder="Humans: leave blank." /></div>
+                    <div class="formRow"><button type="submit" class="btn submitBtn">Send</button>  
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</main>
  	<!-- Footer -->
      <footer>
         <div class="footer">

@@ -142,9 +142,6 @@ nav{
     text-align: center;
 }
 /* Services Page Layout */
-.servicesWrapper{
-    height: vh100;
-}
 .servicesRow{
     display: flex;
     flex-direction: row;
@@ -188,6 +185,44 @@ nav{
 #disclaimer{
     color: #D1E2C4;
 }
+/* Contact Page */
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    height: auto;
+    width: auto;
+}
+.formWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: left;  
+}
+.formRow{
+    margin: 10px 0px;
+    width: 100%;
+}
+input[type=text], input[type=email], select, textarea {
+    width: 400px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  .submitBtn {
+    background-color: #778A35;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    float: right;
+  }
+ 
 /* Media Queries */
 @media screen and (prefers-reduced-motion: reduce) {  
     * {
@@ -268,6 +303,14 @@ nav{
     flex-direction: column;
     margin: 20px 5px;
 }
+   /* Contact Page */
+   input[type=text], input[type=email], select, textarea {
+    width: 80vw;
+    font-size: large;
+  }
+  #form{
+    height: 60vh;
+  }
   }
 /* Viewports between 481px and 600px wide */
 @media only screen and (min-device-width: 481px) and (max-device-width: 600px) {
@@ -332,6 +375,14 @@ nav{
     .copy{
         text-align: center;
     }
+       /* Contact Page */
+       input[type=text], input[type=email], select, textarea {
+        width: 80vw;
+        font-size: large;
+      }
+      #form{
+        height: 60vh;
+      }
   }
   /* Viewports between 601px and 940px wide */
 @media only screen and (min-device-width: 601px) and (max-device-width: 940px) {
@@ -396,4 +447,12 @@ nav{
     .copy{
         text-align: center;
     }
+    /* Contact Page */
+    input[type=text], input[type=email], select, textarea {
+    width: 80vw;
+    font-size: large;
+  }
+  #form{
+    height: 60vh;
+  }
   }
